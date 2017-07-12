@@ -44,6 +44,6 @@ for key in name:
 print ("----------")
 print ("THERE ARE " + str(len(set(dept.keys()))) + " DEPARTMENTS:")
 for key in dept:
-    print ("+" + key +  "(" + str(dept[key]) + " products)")
+    print ("+" + key.title() +  "(" + str(dept[key]) + " products)")
 
 #code.interact(local=locals())
